@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Calculator App</title>
+</head>
+<body>
+    <header>
+        <img src="./images/SPLITTER.svg" alt="">
+    </header>
+    <div class="container">
+        <div class="configs">
+            <div class="bill">
+                <label for="rightToLeftInput">Bill</label>
+                <input type="text" name="" id="rightToLeftInput" dir="rtl" placeholder="">
+            </div>
+            <div class="tip">
+                <p class="tip-title">Select Tip %</p>
+                <ul onclick="handleClick(event)">
+                    <li>5%</li>
+                    <li>10%</li>
+                    <li>15%</li>
+                    <li>25%</li>
+                    <li>50%</li>
+                    <li class="custom">Custom</li>
+                </ul>
+            </div>
+            <div class="people">
+                <label for="rightToLeftInput">Number of People</label>
+                <input type="text" name="" class="rightToLeftInput" placeholder="" dir="rtl">
+               
+            </div>
+        </div>
+        <div class="display-total">
+            <div class="amount cl">
+                <div class="text">
+                    <p>Tip Amount</p>
+                    <p>/ person</p>
+                </div>
+                <div class="total">
+                    <p>$0.00</p>
+                </div>
+            </div>
+            <div class="total cl">
+                <div class="text">
+                    <p>Total</p>
+                    <p>/ person</p>
+                </div>
+                <div class="total">
+                    <p>$0.00</p>
+                </div>
+            </div>
+            <button type="button">RESET </button>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
