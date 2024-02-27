@@ -67,7 +67,9 @@ header img {
     color: #9EBBBD;
     font-weight: bolder;
 }
-
+#dd {
+    display: none;
+}
 #rightToLeftInput {
     font-family: "Space Mono", monospace;
     font-weight: bolder;
