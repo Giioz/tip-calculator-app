@@ -27,7 +27,8 @@ header img {
 }
 
 .container {
-    width: 100%;
+    width: 425px;
+    margin: auto;
     background-color: #FFFFFF;
     border-radius: 25px 25px 0 0;
     padding: 30px;
@@ -58,6 +59,10 @@ header img {
     background-color:  #F3F9FA;
     outline: none;
     margin-top: 5px;
+}
+.configs .bill input:focus {
+    outline: 2px solid #26C2AE;
+
 }
 #rightToLeftInput::placeholder {
     text-align: left;
@@ -104,6 +109,20 @@ header img {
 .tip ul .custom {
     background-color: #F3F9FA;
     color: #547878;
+    border: none;
+    width: 146px;
+    border-radius: 5px;
+    font-family: "Space Mono", monospace;
+    font-weight: bolder;
+    font-size: 24px;
+
+}
+.tip ul .custom:focus {
+    outline: 2px solid #26C2AE;
+}
+.tip ul .custom::placeholder {
+    text-align: center;
+    font-size: 24px;
 }
 .tip ul {
     display: grid;
@@ -144,6 +163,10 @@ header img {
     background-color:#F3F9FA;
     outline: none;
     margin-top: 5px;
+
+}
+.configs .people input:focus {
+    outline: 2px solid #26C2AE;
 
 }
 
@@ -259,6 +282,14 @@ header img {
     }
     .configs .people label {
         margin-top: 0px;
+    }
+    .tip ul .custom {
+        background-color: #F3F9FA;
+        color: #547878;
+        border: none;
+        width: 117px;
+
+    
     }
 }
 
